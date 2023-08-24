@@ -10,16 +10,16 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Bianca Pinto Moreira
-* Felipe de Araújo Feliciano
-* Guilherme Germano Marroco
-* Jose Luis Gomes Monteiro
-* Marco Antonio Gil do Amaral Oliveira
-* Otávio Cavallieri Silva
+- Bianca Pinto Moreira
+- Felipe de Araujo Feliciano
+- Guilherme Germano Marroco
+- Jose Luis Gomes Monteiro
+- Marco Antonio Gil do Amaral Oliveira
+- Otávio Cavallieri Silva
 
 ## Orientador
 
-* Nome completo do professor 1
+- Nome completo do professor 1
 
 ## Instruções de utilização
 
