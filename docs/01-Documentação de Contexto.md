@@ -38,6 +38,32 @@ Descreva quem serão as pessoas que usarão a sua aplicação indicando os difer
 hierárquicas, etc.
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+## Histórias das Personas
+
+### Ana Luiza
+Como professora de Teorias da Personalidade, utilizo filmes como ferramenta educacional. Um repositório de filmes bem avaliados com análises seria incrivelmente útil para aprimorar minhas aulas e oferecer exemplos mais concretos aos alunos.
+
+Adoro trazer inovação às aulas. Já usei filmes como "Um contratempo" e "Fragmentado" para discutir e ter percepções da turma. Já senti dificuldades em encontrar filmes para aula, apesar de existir uma quantidade significativa que seja útil, mas um site com os 100 melhores filmes seria uma ótima ferramenta.
+
+### Pedro
+Como estudante de Cinema e Audiovisual, trabalhando no meu TCC, preciso identificar rapidamente filmes altamente avaliados. Uma plataforma que reúna esses filmes e forneça informações relevantes agilizaria minha pesquisa e análise.
+
+Tenho muito foco na influência cultural do cinema. Me ajudaria a evidenciar como filmes podem ser catalisadores de discussões sociais e transformações.
+
+### Leonardo
+Sou economista. Visando minha rotina corrida, em momentos livres, gosto de desfrutar bons filmes. Um site listando os melhores filmes seria perfeito para meus insights sobre como decisões artísticas afetam o sucesso comercial.
+
+Tenho o costume de fazer noite de cinema com minha esposa. Em muitos momentos, ficamos indecisos para escolher o filme, pois para ambos a avaliação do filme é um fator importante. Ter um local para ver os filmes mais bem avaliados seria ideal para o nosso desafio.
+
+### Catarina
+Sou professora de Literatura. Clássicos cinematográficos são minha paixão. Recentemente, discuti "E o Vento Levou" com amigos, comparando-o ao romance. Um site com os melhores filmes seria incrível para explorar novos ares do mundo do cinema.
+
+Amo literatura e cinema. Em meu aniversário, adoro fazer festas temáticas. Seria uma fonte valiosa para criar experiências, conectando literatura e cinema de maneira única.
+
+### Bruna
+Amo efeitos visuais e narrativas tecnológicas. Explorar como tecnologia e narrativa se fundem no cinema, inspirando minha abordagem como engenheira de software, é algo que me faz ser muito criteriosa com a escolha de filmes que irei assistir.
+
+Além de assistir filmes e séries, meu maior hobby é avaliá-los. Adoraria poder contribuir com minhas perspectivas e pontos de vista, além de conseguir encontrar filmes bem avaliados.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
