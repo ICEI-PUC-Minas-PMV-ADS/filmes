@@ -1,44 +1,49 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Nesta parte do documento, vamos abordar a definição do problema e a ideia de solução sob a perspectiva dos usuários. Para isso, utilizaremos técnicas e ferramentas como a criação de diagramas de personas, histórias de usuários, requisitos funcionais e não funcionais, bem como as restrições do projeto.
+Ao utilizar essas técnicas e ferramentas, seremos capazes de definir de forma abrangente o problema a ser resolvido e criar uma ideia de solução que atenda às necessidades e expectativas dos usuários, ao mesmo tempo em que respeita as restrições e requisitos do projeto. Isso servirá como um guia fundamental para o desenvolvimento da aplicação de Recomendação de Filmes baseada nos "100 Melhores Filmes de Todos os Tempos".
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+### Ana Luiza
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Como professora de Teorias da Personalidade, utilizo filmes como ferramenta educacional. Um repositório de filmes bem avaliados com análises seria incrivelmente útil para aprimorar minhas aulas e oferecer exemplos mais concretos aos alunos.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Adoro trazer inovação às aulas. Já usei filmes como "Um contratempo" e "Fragmentado" para discutir e ter percepções da turma. Já senti dificuldades em encontrar filmes para aula, apesar de existir uma quantidade significativa que seja útil, mas um site com os 100 melhores filmes seria uma ótima ferramenta.
+
+### Pedro
+
+Como estudante de Cinema e Audiovisual, trabalhando no meu TCC, preciso identificar rapidamente filmes altamente avaliados. Uma plataforma que reúna esses filmes e forneça informações relevantes agilizaria minha pesquisa e análise.
+
+Tenho muito foco na influência cultural do cinema. Me ajudaria a evidenciar como filmes podem ser catalisadores de discussões sociais e transformações.
+
+### Leonardo
+
+Sou economista. Visando minha rotina corrida, em momentos livres, gosto de desfrutar bons filmes. Um site listando os melhores filmes seria perfeito para meus insights sobre como decisões artísticas afetam o sucesso comercial.
+
+Tenho o costume de fazer noite de cinema com minha esposa. Em muitos momentos, ficamos indecisos para escolher o filme, pois para ambos a avaliação do filme é um fator importante. Ter um local para ver os filmes mais bem avaliados seria ideal para o nosso desafio.
+
+### Catarina
+
+Sou professora de Literatura. Clássicos cinematográficos são minha paixão. Recentemente, discuti "E o Vento Levou" com amigos, comparando-o ao romance. Um site com os melhores filmes seria incrível para explorar novos ares do mundo do cinema.
+
+Amo literatura e cinema. Em meu aniversário, adoro fazer festas temáticas. Seria uma fonte valiosa para criar experiências, conectando literatura e cinema de maneira única.
+
+### Bruna
+
+Amo efeitos visuais e narrativas tecnológicas. Explorar como tecnologia e narrativa se fundem no cinema, inspirando minha abordagem como engenheira de software, é algo que me faz ser muito criteriosa com a escolha de filmes que irei assistir.
+
+Além de assistir filmes e séries, meu maior hobby é avaliá-los. Adoraria poder contribuir com minhas perspectivas e pontos de vista, além de conseguir encontrar filmes bem avaliados.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+| EU COMO...    | QUERO/PRECISO...                                                             | PARA...                                                                                         |
+| ------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Ana Luiza** | Utilizar filmes como ferramenta educacional                                  | Aprimorar minhas aulas e oferecer exemplos concretos aos alunos.                                |
+| **Pedro**     | Identificar rapidamente filmes altamente avaliados para pesquisa e análise   | Agilizar minha pesquisa acadêmica e evidenciar a influência cultural do cinema.                 |
+| **Leonardo**  | Encontrar filmes para entretenimento pessoal e noites de cinema com a esposa | Desfrutar de bons filmes e tomar decisões informadas sobre escolhas de filmes.                  |
+| **Catarina**  | Explorar clássicos cinematográficos para enriquecer o ensino                 | Criar experiências únicas conectando literatura e cinema.                                       |
+| **Bruna**     | Encontrar filmes com narrativas tecnológicas e efeitos visuais               | Explorar como tecnologia e narrativa se fundem no cinema e contribuir com avaliações de filmes. |
 
 ## Requisitos
 
@@ -46,58 +51,40 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| ID     | Descrição do Requisito                             | Prioridade |
+| ------ | -------------------------------------------------- | ---------- |
+| RF-001 | Marcar um filme como assistido                     | ALTA       |
+| RF-002 | Dar uma nota de 0 a 100 para um filme              | MÉDIA      |
+| RF-003 | Escrever um review de um filme                     | ALTA       |
+| RF-004 | Filtrar a lista de filmes por diferentes critérios | ALTA       |
+| RF-005 | Organizar a lista de filmes                        | MÉDIA      |
+| RF-006 | Procurar por filmes através de uma searchbar       | ALTA       |
+| RF-007 | Alternar entre modos Dark e Bright                 | MÉDIA      |
+| RF-008 | Ler a sinopse de um filme                          | ALTA       |
+| RF-009 | Curtir os comentários de outros usuários           | MÉDIA      |
+| RF-010 | Descurtir os comentários de outros usuários        | MÉDIA      |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+| ID      | Descrição do Requisito                                                     | Prioridade |
+| ------- | -------------------------------------------------------------------------- | ---------- |
+| RNF-001 | O aplicativo deve ter um tempo de resposta rápido para operações CRUD      | ALTA       |
+| RNF-002 | As operações CRUD devem ser concluídas em um intervalo de tempo aceitável  | ALTA       |
+| RNF-003 | O acesso às operações CRUD deve ser restrito apenas a usuários cadastrados | ALTA       |
+| RNF-004 | O sistema deve estar disponível a maior parte do tempo                     | MÉDIA      |
+| RNF-005 | O aplicativo deve ser responsivo e adaptável a diferentes dispositivos     | ALTA       |
+| RNF-006 | O código do aplicativo deve ser modular e bem organizado                   | ALTA       |
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+| ID  | Restrição                                                                                                                                          |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 01  | A equipe de desenvolvimento está limitada a um número específico de membros.                                                                       |
+| 02  | A aplicação deve ser desenvolvida usando tecnologias de código aberto para reduzir os custos de licenciamento.                                     |
+| 03  | O projeto deve ser compatível com os navegadores mais comuns, como Chrome, Firefox e Edge, não sendo necessário suportar navegadores mais antigos. |
+| 04  | A infraestrutura de hospedagem da aplicação deve ser escolhida de acordo com o orçamento disponível.                                               |
+| 05  | O projeto deverá ser entregue até o final do semestre.                                                                                             |
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+![Diagrama](src/diagramacasodeusocineview.png)
