@@ -1,12 +1,12 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Interativa`
 
-`SEMESTRE`
+`Semestre 2/2023`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto em desenvolvimento é uma plataforma de recomendação de filmes que visa resolver o problema da sobrecarga de opções que os amantes de cinema enfrentam atualmente. A plataforma utiliza uma lista dos "100 Melhores Filmes de Todos os Tempos" como base para suas recomendações, uma seleção consolidada ao longo dos anos por análises e críticas. O público-alvo abrange desde acadêmicos e educadores que veem o cinema como uma ferramenta de ensino até entusiastas que buscam experiências de entretenimento de alta qualidade. Além disso, a plataforma também acolhe avaliadores e críticos que desejam contribuir com suas perspectivas e análises. Essa abordagem oferece aos usuários uma maneira eficaz de descobrir filmes que são considerados verdadeiras referências no mundo do cinema, facilitando a tomada de decisão diante da abundância de opções disponíveis.
 
 ## Integrantes
 
@@ -19,7 +19,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Orientador
 
-- Nome completo do professor 1
+- Daniela Carvalho Monteiro Ferreira
 
 ## Instruções de utilização
 
