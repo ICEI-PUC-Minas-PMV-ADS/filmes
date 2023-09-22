@@ -29,6 +29,41 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 
 ![Projeto da Base de Dados](/src/projetobasededadoscineviews.png)
 
+Tabela: Usuario
+Colunas:
+ID (chave primária)
+username
+nome
+email
+senha
+
+Tabela: Lista
+Colunas:
+ID (chave primária)
+UserID (chave estrangeira referenciando a tabela Usuario)
+
+Tabela: Filme
+Colunas:
+ID (chave primária)
+titulo
+poster
+sinopse
+
+Tabela: FilmeLista (para representar o relacionamento N:N entre Filme e Lista)
+Colunas:
+ListaID (chave estrangeira referenciando a tabela Lista)
+FilmeID (chave estrangeira referenciando a tabela Filme)
+marcar_como_assistido
+dar_nota (valor de 0 a 100)
+fazer_review
+curtir
+discutir
+
+A tabela "Usuario" armazena informações sobre os usuários, como ID, nome de usuário, nome, email e senha.
+A tabela "Lista" armazena informações sobre as listas criadas pelos usuários e possui uma chave estrangeira (UserID) que se relaciona com a tabela "Usuario" para rastrear qual usuário criou a lista.
+A tabela "Filme" armazena informações sobre os filmes, como ID, título, poster e sinopse.
+A tabela "FilmeLista" é usada para representar a relação N:N entre filmes e listas de reprodução. Ela armazena informações sobre a interação de um filme em uma lista, como se ele foi marcado como assistido, a nota dada, a revisão feita, etc. Ela também possui chaves estrangeiras (ListaID e FilmeID) que se relacionam com as tabelas "Lista" e "Filme", respectivamente.
+
 ## Tecnologias Utilizadas
 
 Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
