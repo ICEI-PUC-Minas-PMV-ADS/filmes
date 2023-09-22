@@ -28,7 +28,14 @@ Por exemplo:
 | **Objetivo do Teste**   | Verificar se um usuário pode escrever um review de um filme.                                                                    |
 | **Passos**              | 1. Fazer login na conta de usuário. 2. Acessar uma lista de filmes. 3. Selecionar um filme. 4. Escrever um review para o filme. |
 | **Critério de Êxito**   | O review é registrado com sucesso para o filme.                                                                                 |
-|  |
+|                         |
+
+| **Caso de Teste**       | CT-04 – Filtrar a lista de filmes por diferentes critérios                                                                  |
+| :---------------------- | :-------------------------------------------------------------------------------------------------------------------------- |
+| **Requisito Associado** | RF-004                                                                                                                      |
+| **Objetivo do Teste**   | Verificar se um usuário pode filtrar a lista de filmes por diferentes critérios.                                            |
+| **Passos**              | 1. Fazer login na conta de usuário. 2. Acessar uma lista de filmes. 3. Aplicar um filtro específico, como gênero, ano, etc. |
+| **Critério de Êxito**   | A lista de filmes é filtrada com sucesso de acordo com o critério selecionado.                                              |
 
 > **Links Úteis**:
 >
