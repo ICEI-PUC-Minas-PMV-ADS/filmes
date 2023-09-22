@@ -65,13 +65,13 @@ Por exemplo:
 | **Passos**              | 1. Fazer login na conta de usuário. 2. Visualizar um comentário. 3. Clicar no botão "Curtir" ao lado do comentário. |
 | **Critério de Êxito**   | O comentário é curtido com sucesso pelo usuário.                                                                    |
 
-| **Caso de Teste**                                     | CT-09 – Descurtir os comentários de outros usuários                                  |
-| :---------------------------------------------------- | :----------------------------------------------------------------------------------- |
-| **Requisito Associado**                               | RF-010                                                                               |
-| **Objetivo do Teste**                                 | Verificar se um usuário pode descurtir os comentários de outros usuários.            |
-| **Passos**                                            | 1. Fazer login na conta de usuário. 2. Visualizar um comentário previamente curtido. |
-| 3. Clicar no botão "Descurtir" ao lado do comentário. |
-| **Critério de Êxito**                                 | O curtir é removido com sucesso do comentário.                                       |
+| **Caso de Teste**       | CT-09 – Descurtir os comentários de outros usuários                                                                                        |
+| :---------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Requisito Associado** | RF-010                                                                                                                                     |
+| **Objetivo do Teste**   | Verificar se um usuário pode descurtir os comentários de outros usuários.                                                                  |
+| **Passos**              | 1. Fazer login na conta de usuário. 2. Visualizar um comentário previamente curtido. 3. Clicar no botão "Descurtir" ao lado do comentário. |
+| **Critério de Êxito**   | O curtir é removido com sucesso do comentário.                                                                                             |
+|  |
 
 > **Links Úteis**:
 >
