@@ -8,17 +8,12 @@ Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o
 
 Por exemplo:
 
-| **Caso de Teste**       | CT-01 – Marcar um filme como assistido                       |
-| :---------------------- | :----------------------------------------------------------- |
-| **Requisito Associado** | RF-001                                                       |
-| **Objetivo do Teste**   | Verificar se um usuário pode marcar um filme como assistido. |
-| **Passos**              |
-
-1. Fazer login na conta de usuário.
-2. Acessar uma lista de filmes.
-3. Selecionar um filme.
-4. Marcar o filme como assistido. |
-   | **Critério de Êxito** | O filme é marcado como assistido com sucesso. |
+| **Caso de Teste**       | CT-01 – Marcar um filme como assistido                                                                                     |
+| :---------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| **Requisito Associado** | RF-001                                                                                                                     |
+| **Objetivo do Teste**   | Verificar se um usuário pode marcar um filme como assistido.                                                               |
+| **Passos**              | 1. Fazer login na conta de usuário.2. Acessar uma lista de filmes.3. Selecionar um filme.4. Marcar o filme como assistido. |
+| **Critério de Êxito**   | O filme é marcado como assistido com sucesso.                                                                              |
 
 > **Links Úteis**:
 >
