@@ -37,6 +37,27 @@ Por exemplo:
 | **Passos**              | 1. Fazer login na conta de usuário. 2. Acessar uma lista de filmes. 3. Aplicar um filtro específico, como gênero, ano, etc. |
 | **Critério de Êxito**   | A lista de filmes é filtrada com sucesso de acordo com o critério selecionado.                                              |
 
+| **Caso de Teste**       | CT-05 – Organizar a lista de filmes                                                                             |
+| :---------------------- | :-------------------------------------------------------------------------------------------------------------- |
+| **Requisito Associado** | RF-005                                                                                                          |
+| **Objetivo do Teste**   | Verificar se um usuário pode organizar a lista de filmes.                                                       |
+| **Passos**              | 1. Fazer login na conta de usuário. 2. Acessar uma lista de filmes. 3. Reorganizar a ordem dos filmes na lista. |
+| **Critério de Êxito**   | A ordem dos filmes na lista é alterada com sucesso.                                                             |
+
+| **Caso de Teste**       | CT-06 – Procurar por filmes através de uma searchbar                                                   |
+| :---------------------- | :----------------------------------------------------------------------------------------------------- |
+| **Requisito Associado** | RF-006                                                                                                 |
+| **Objetivo do Teste**   | Verificar se um usuário pode procurar por filmes através de uma barra de pesquisa.                     |
+| **Passos**              | 1. Fazer login na conta de usuário. 2. Utilizar a barra de pesquisa para procurar um filme específico. |
+| **Critério de Êxito**   | Os resultados da pesquisa são exibidos com sucesso de acordo com o termo de busca.                     |
+
+| **Caso de Teste**       | CT-07 – Alternar entre modos Dark e Bright                                |
+| :---------------------- | :------------------------------------------------------------------------ |
+| **Requisito Associado** | RF-007                                                                    |
+| **Objetivo do Teste**   | Verificar se um usuário pode alternar entre modos Dark e Bright.          |
+| **Passos**              | 1. Acessar as configurações da conta. 2. Selecionar a opção de modo Dark. |
+| **Critério de Êxito**   | O modo de exibição da aplicação muda com sucesso para o modo Dark.        |
+
 > **Links Úteis**:
 >
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
