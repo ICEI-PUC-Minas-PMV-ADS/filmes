@@ -71,7 +71,9 @@ Por exemplo:
 | **Objetivo do Teste**   | Verificar se um usuário pode descurtir os comentários de outros usuários.                                                                  |
 | **Passos**              | 1. Fazer login na conta de usuário. 2. Visualizar um comentário previamente curtido. 3. Clicar no botão "Descurtir" ao lado do comentário. |
 | **Critério de Êxito**   | O curtir é removido com sucesso do comentário.                                                                                             |
-|  |
+|                         |
+
+Esses casos de teste abrangem os requisitos identificados e ajudarão a verificar se a aplicação está funcionando de acordo com as especificações. Adaptaremos esses casos de teste conforme necessário para refletir as características específicas da aplicação e adicionaremos outros casos de teste, se necessário.
 
 > **Links Úteis**:
 >
