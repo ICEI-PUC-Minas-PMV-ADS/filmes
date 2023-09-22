@@ -8,12 +8,27 @@ Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o
 
 Por exemplo:
 
-| **Caso de Teste**       | CT-01 – Marcar um filme como assistido                                                                                     |
-| :---------------------- | :------------------------------------------------------------------------------------------------------------------------- |
-| **Requisito Associado** | RF-001                                                                                                                     |
-| **Objetivo do Teste**   | Verificar se um usuário pode marcar um filme como assistido.                                                               |
-| **Passos**              | 1. Fazer login na conta de usuário.2. Acessar uma lista de filmes.3. Selecionar um filme.4. Marcar o filme como assistido. |
-| **Critério de Êxito**   | O filme é marcado como assistido com sucesso.                                                                              |
+| **Caso de Teste**       | CT-01 – Marcar um filme como assistido                                                                                        |
+| :---------------------- | :---------------------------------------------------------------------------------------------------------------------------- |
+| **Requisito Associado** | RF-001                                                                                                                        |
+| **Objetivo do Teste**   | Verificar se um usuário pode marcar um filme como assistido.                                                                  |
+| **Passos**              | 1. Fazer login na conta de usuário. 2. Acessar uma lista de filmes. 3. Selecionar um filme. 4. Marcar o filme como assistido. |
+| **Critério de Êxito**   | O filme é marcado como assistido com sucesso.                                                                                 |
+
+| **Caso de Teste**       | CT-02 – Dar uma nota de 0 a 100 para um filme                                                                         |
+| :---------------------- | :-------------------------------------------------------------------------------------------------------------------- |
+| **Requisito Associado** | RF-002                                                                                                                |
+| **Objetivo do Teste**   | Verificar se um usuário pode dar uma nota de 0 a 100 para um filme.                                                   |
+| **Passos**              | 1. Fazer login na conta de usuário. 2. Acessar uma lista de filmes. 3. Selecionar um filme. 4. Dar uma nota ao filme. |
+| **Critério de Êxito**   | A nota é atribuída ao filme com sucesso dentro do intervalo de 0 a 100.                                               |
+
+| **Caso de Teste**       | CT-03 – Escrever um review de um filme                                                                                          |
+| :---------------------- | :------------------------------------------------------------------------------------------------------------------------------ |
+| **Requisito Associado** | RF-003                                                                                                                          |
+| **Objetivo do Teste**   | Verificar se um usuário pode escrever um review de um filme.                                                                    |
+| **Passos**              | 1. Fazer login na conta de usuário. 2. Acessar uma lista de filmes. 3. Selecionar um filme. 4. Escrever um review para o filme. |
+| **Critério de Êxito**   | O review é registrado com sucesso para o filme.                                                                                 |
+|  |
 
 > **Links Úteis**:
 >
