@@ -58,6 +58,21 @@ Por exemplo:
 | **Passos**              | 1. Acessar as configurações da conta. 2. Selecionar a opção de modo Dark. |
 | **Critério de Êxito**   | O modo de exibição da aplicação muda com sucesso para o modo Dark.        |
 
+| **Caso de Teste**       | CT-08 – Curtir os comentários de outros usuários                                                                    |
+| :---------------------- | :------------------------------------------------------------------------------------------------------------------ |
+| **Requisito Associado** | RF-009                                                                                                              |
+| **Objetivo do Teste**   | Verificar se um usuário pode curtir os comentários de outros usuários.                                              |
+| **Passos**              | 1. Fazer login na conta de usuário. 2. Visualizar um comentário. 3. Clicar no botão "Curtir" ao lado do comentário. |
+| **Critério de Êxito**   | O comentário é curtido com sucesso pelo usuário.                                                                    |
+
+| **Caso de Teste**                                     | CT-09 – Descurtir os comentários de outros usuários                                  |
+| :---------------------------------------------------- | :----------------------------------------------------------------------------------- |
+| **Requisito Associado**                               | RF-010                                                                               |
+| **Objetivo do Teste**                                 | Verificar se um usuário pode descurtir os comentários de outros usuários.            |
+| **Passos**                                            | 1. Fazer login na conta de usuário. 2. Visualizar um comentário previamente curtido. |
+| 3. Clicar no botão "Descurtir" ao lado do comentário. |
+| **Critério de Êxito**                                 | O curtir é removido com sucesso do comentário.                                       |
+
 > **Links Úteis**:
 >
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
