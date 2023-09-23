@@ -1,10 +1,3 @@
-
-# Metodologia
-
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Nessa seção apresentamos as ferramentas utilizadas para a produção e gestão do projeto.
-
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
@@ -26,7 +19,7 @@ Na tabela a seguir temos a relação dos ambientes de trabalho com suas respecti
 |:---:|:---:|:---:|
 |Repositório de código fonte|GitHub|[Github](https://github.com/)|
 |Documentos do projeto|GitHub|[Github](https://github.com/)|
-|Projeto de Interface e Wireframes |#####|#######|
+|Projeto de Interface e Wireframes |Figma|[Figma](https://figma.com/)|
 |Gerenciamento do Projeto |GitHub|[Github](https://github.com/) |
 
 ## Gerenciamento de Projeto
@@ -35,7 +28,7 @@ Na tabela a seguir temos a relação dos ambientes de trabalho com suas respecti
 
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:  
 
-* *Scrum Master:* Marco Antonio Gil do Amaral Oliveira
+* *Scrum Master:* Marco Antonio
 
 * *Product Owner:*  
 
@@ -58,7 +51,7 @@ As ferramentas empregadas no projeto são:
 
 - Editor de código: VSCODE
 - Ferramentas de comunicação: DISCORD
-- Ferramentas de desenho de tela (_wireframing_): 
+- Ferramentas de desenho de tela (_wireframing_): Figma
 
 O editor de código foi escolhido porque ele possui uma integração com o
 sistema de versão. As ferramentas de comunicação utilizadas possuem
