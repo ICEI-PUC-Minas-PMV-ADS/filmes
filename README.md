@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# CineWave
 
 `Análise e Desenvolvimento de Sistemas`
 
