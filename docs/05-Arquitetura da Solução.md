@@ -13,13 +13,43 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 ## Modelo ER (Projeto Conceitual)
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
+O Modelo ER, abreviação para Modelo de Entidade e Relacionamento, é uma ferramenta essencial no campo de gerenciamento de bancos de dados, especialmente durante a fase de projeto conceitual. Ele desempenha um papel crucial na representação e organização de dados em sistemas de informação, fornecendo uma abstração clara e independente da tecnologia que ajuda na compreensão e comunicação de como os dados são estruturados e relacionados dentro de um sistema.
 
-Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
+### Entidades Principais
 
-A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
+No contexto do nosso sistema, identificamos três entidades principais que desempenham papéis cruciais na modelagem dos dados:
 
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+- Usuário: A entidade Usuário representa os indivíduos que interagem com a plataforma. Cada usuário possui atributos como ID de Usuário, Nome de Usuário, Senha, E-mail, entre outros. Esses atributos são essenciais para a autenticação e identificação dos usuários no sistema.
+
+- Filme: A entidade Filme representa os filmes disponíveis na plataforma. Cada filme é caracterizado por atributos como ID de Filme, Título, Sipnose e Poster. Esses atributos ajudam a descrever os detalhes específicos de cada filme em nossa base de dados.
+
+- Lista de Filmes: A entidade Lista de Filmes é usada para organizar os filmes de acordo com as preferências dos usuários. Cada lista possui atributos como ID da Lista, Nome da Lista. Elas permitem que os usuários criem e gerenciem coleções personalizadas de filmes.
+
+### Atributos das Entidades
+
+Cada entidade possui um conjunto específico de atributos que descrevem as características e propriedades associadas a ela. Esses atributos são cruciais para a representação e manipulação dos dados. Alguns dos atributos relevantes incluem:
+
+- Usuário: ID de Usuário, Nome de Usuário, Senha, E-mail, etc.
+- Filme: ID de Filme, Título, Sinopse, Poster, etc.
+- Lista de Filmes: ID da Lista, Nome da Lista, etc.
+
+### Relacionamentos
+
+A estrutura do Modelo ER é definida por relacionamentos que conectam as entidades. Os principais relacionamentos no nosso sistema são:
+
+- Relacionamento "Usuário - Lista de Filmes" (1 para N):
+
+  * Cada usuário pode criar várias listas de filmes.
+  * Cada lista de filmes pertence a um único usuário.
+
+- Relacionamento "Lista de Filmes - Filme" (N para N):
+
+  * Cada lista de filmes pode conter vários filmes.
+  * Um filme pode estar em várias listas de diferentes usuários.
+
+Para gerenciar o relacionamento "Lista de Filmes - Filme" de forma eficiente, utilizamos uma tabela de junção chamada "FilmeLista". Essa tabela permite a associação de filmes a listas específicas de usuários, tornando possível a criação de coleções personalizadas de filmes.
+
+![Diagrama de Entidade e Relacionamento](img/DER_cinewave.png)
 
 ## Projeto da Base de Dados
 
