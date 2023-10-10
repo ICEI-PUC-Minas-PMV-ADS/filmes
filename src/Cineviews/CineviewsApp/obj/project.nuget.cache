@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aCemW/kuvedoJGn8QjHlhgrKvd/xGdiSXJkxt/C2CQJ3AFwVuSeGcFsthemy11JPB4HJXLpUcf1TrDOK2VjrVw==",
+  "dgSpecHash": "1Te7IV/wwQoZjZhmVsdlE+0vASCgfc5bIO8ps16dlPUFY37Qe/tYvFG446IBKzmSKlTMAujmTkUk3Lhcz5MdVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pichau\\source\\repos\\Cineviews\\CineviewsApp\\CineviewsApp.csproj",
+  "projectFilePath": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\src\\Cineviews\\CineviewsApp\\CineviewsApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.23\\microsoft.aspnetcore.mvc.razor.extensions.6.0.23.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\6.0.23\\microsoft.aspnetcore.mvc.razor.runtimecompilation.6.0.23.nupkg.sha512",
