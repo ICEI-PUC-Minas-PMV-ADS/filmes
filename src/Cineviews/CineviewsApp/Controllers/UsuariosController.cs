@@ -9,9 +9,11 @@ using CineviewsApp.Models;
 using BCrypt.Net;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CineviewsApp.Controllers
 {
+    [Authorize(Roles ="Admin")]
     public class UsuariosController : Controller
     {
         private readonly AppDbContext _context;
@@ -27,12 +29,20 @@ namespace CineviewsApp.Controllers
               return View(await _context.Usuarios.ToListAsync());
         }
 
+        [AllowAnonymous]
+          public IActionResult AccessDenied()
+        {
+            return View();
+        }
+
+        [AllowAnonymous]
         public IActionResult Login()
         {
             return View();
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> Login(Usuario usuario)
         {
             var dados = await _context.Usuarios.FindAsync(usuario.Id);
@@ -78,6 +88,7 @@ namespace CineviewsApp.Controllers
             return View();
         }
 
+        [AllowAnonymous]
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync();

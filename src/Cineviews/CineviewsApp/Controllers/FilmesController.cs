@@ -1,9 +1,11 @@
 ﻿using CineviewsApp.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace CineviewsApp.Controllers
 {
+    [Authorize]
     public class FilmesController : Controller
     {
         private readonly AppDbContext _context;
