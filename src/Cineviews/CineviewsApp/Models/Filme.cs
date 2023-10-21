@@ -21,5 +21,7 @@ namespace CineviewsApp.Models
 
         [Required(ErrorMessage = "Informar o score")]
         public int Score { get; set; }
+
+        public ICollection<Meufilme> Meusfilmes { get; set; }
     }
 }
