@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\Pichau\Downloads\1 varios\CODING\filmes-main\src\Cineviews\CineviewsApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/src/Cineviews/CineviewsApp/Views/Filmes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/src/Cineviews/CineviewsApp/Views/Filmes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

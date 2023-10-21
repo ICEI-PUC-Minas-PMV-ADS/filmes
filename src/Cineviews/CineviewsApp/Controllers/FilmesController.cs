@@ -20,5 +20,24 @@ namespace CineviewsApp.Controllers
 
             return View(dados);
         }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(Filme filme)
+        {
+
+            if (ModelState.IsValid)
+            {
+                _context.Filmes.Add(filme);
+                 await _context.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+
+            return View(filme);
+        }
     }
 }
