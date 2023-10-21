@@ -16,6 +16,7 @@ namespace CineviewsApp.Models
         public string Diretor { get; set; }
 
         [Required(ErrorMessage = "Informar a data")]
+        [Display(Name ="Data de Lançamento")]
         public int DataLancamento { get; set; }
 
         [Required(ErrorMessage = "Informar o score")]
