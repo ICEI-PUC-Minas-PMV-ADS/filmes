@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Xf+azZC5kXzk9zHKcREsJAND3MCjY4R6OeeXn8PZiJ0HS/MkjiQY3qZD/w+9dLxEQ8CjVC4Q8WsmbinUTMx8Gw==",
+  "dgSpecHash": "SB4VPMp71r9lPeQzoqtK3WGKQnNUVRm6Gfk9xCxwJs2PCNmE/9fQK6yDJJHp/gakaKxe4mAdg9JIU+UWWsiutw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\src\\Cineviews\\CineviewsApp\\CineviewsApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Pichau\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
