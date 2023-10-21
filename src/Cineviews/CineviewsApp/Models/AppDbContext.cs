@@ -10,5 +10,7 @@ namespace CineviewsApp.Models
 
         public DbSet<Meufilme> Meufilmes { get; set; }
 
+        public DbSet<Usuario> Usuarios { get; set; }
+
     }
 }

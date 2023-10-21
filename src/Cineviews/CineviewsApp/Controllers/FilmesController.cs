@@ -114,5 +114,23 @@ namespace CineviewsApp.Controllers
 
             return RedirectToAction("Index");
         }
+
+        public async Task<IActionResult> Relatorio(int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+            var filme = await _context.Filmes.FindAsync(id);
+
+            if (filme == null)
+                return NotFound();
+
+            var meusfilmes = await _context.Meufilmes.Where(c => c.FilmeId == id).OrderByDescending(c => c.MeuScore).ToListAsync();
+
+            ViewBag.Filme = filme;
+            ViewBag.Meusfilmes = meusfilmes;
+
+            return View(meusfilmes);
+        }
     }
 }

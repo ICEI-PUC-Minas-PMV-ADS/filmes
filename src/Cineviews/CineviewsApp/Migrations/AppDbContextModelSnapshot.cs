@@ -69,6 +69,30 @@ namespace CineviewsApp.Migrations
                     b.ToTable("MeusFilmes");
                 });
 
+            modelBuilder.Entity("CineviewsApp.Models.Usuario", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Perfil")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Usuarios");
+                });
+
             modelBuilder.Entity("CineviewsApp.Models.Meufilme", b =>
                 {
                     b.HasOne("CineviewsApp.Models.Filme", "Filme")

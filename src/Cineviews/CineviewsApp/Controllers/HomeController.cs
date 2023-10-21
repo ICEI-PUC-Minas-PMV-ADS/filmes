@@ -15,7 +15,8 @@ namespace CineviewsApp.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            //return View();
+            return RedirectToAction("Index","Filmes");
         }
 
         public IActionResult Privacy()
