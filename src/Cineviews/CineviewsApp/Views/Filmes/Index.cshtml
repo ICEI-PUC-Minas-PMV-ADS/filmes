@@ -1,0 +1,54 @@
+﻿@model IEnumerable<CineviewsApp.Models.Filme>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Top 100 Filmes</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Adicionar Filme</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Diretor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataLancamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Score)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    <a asp-action="Relatorio" asp-route-id="@item.Id">@item.Nome</a>
+ @*                @Html.DisplayFor(modelItem => item.Nome) *@
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Diretor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataLancamento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Score)
+            </td>
+            <td>
+                <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> 
+                <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Visualizar</a> 
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Apagar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
