@@ -71,5 +71,18 @@ namespace CineviewsApp.Controllers
 
             return View();
         }
+
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+            var dados = await _context.Filmes.FindAsync(id);
+
+            if (dados == null)
+                return NotFound();
+
+            return View(dados);
+        }
     }
 }
