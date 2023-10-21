@@ -39,5 +39,37 @@ namespace CineviewsApp.Controllers
 
             return View(filme);
         }
+
+        public async Task<IActionResult> Edit(int? id)
+        {
+
+            if (id == null)
+                return NotFound();
+
+            var dados = await _context.Filmes.FindAsync(id);
+
+            if (dados == null)
+                return NotFound();
+
+            return View(dados);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(int id, Filme filme)
+        {
+
+            if (id != filme.Id)
+                return NotFound();
+
+            if (ModelState.IsValid)
+            {
+
+                _context.Filmes.Update(filme);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+
+            return View();
+        }
     }
 }
