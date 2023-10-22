@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\CineviewsApp.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\src\\Cineviews\\CineviewsApp\\wwwroot\\cineviews-removebg-preview.png",
+      "PackagePath": "staticwebassets\\cineviews-removebg-preview.png"
+    },
+    {
       "Id": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\src\\Cineviews\\CineviewsApp\\wwwroot\\css\\Login.css",
       "PackagePath": "staticwebassets\\css\\Login.css"
     },

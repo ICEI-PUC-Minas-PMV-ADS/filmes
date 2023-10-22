@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4Bj/60jW6wldAYfHStPGn+FqJnNRSUt1EQtNCDZquC8=",
+  "Hash": "12y+seiwTqiXVM/wOm30TIQQMBdO1/PzRAaDQ5T1+fg=",
   "Source": "CineviewsApp",
   "BasePath": "_content/CineviewsApp",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\src\\Cineviews\\CineviewsApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CineviewsApp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\src\\Cineviews\\CineviewsApp\\wwwroot\\cineviews-removebg-preview.png",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\src\\Cineviews\\CineviewsApp\\wwwroot\\",
+      "BasePath": "_content/CineviewsApp",
+      "RelativePath": "cineviews-removebg-preview.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cineviews-removebg-preview.png"
     },
     {
       "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\src\\Cineviews\\CineviewsApp\\wwwroot\\css\\Login.css",
