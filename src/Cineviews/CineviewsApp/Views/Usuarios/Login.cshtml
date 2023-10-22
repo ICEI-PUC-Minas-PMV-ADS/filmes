@@ -4,40 +4,50 @@
     ViewData["Title"] = "Login";
 }
 
-<h1>Login</h1>
 
-<h4>Usuario</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Login">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Id" class="control-label"></label>
-                <input asp-for="Id" class="form-control" />
-                <span asp-validation-for="Id" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Senha" class="control-label"></label>
-                <input asp-for="Senha" class="form-control" />
-                <span asp-validation-for="Senha" class="text-danger"></span>
-            </div>
-@*             <div class="form-group">
-                <label asp-for="Perfil" class="control-label"></label>
-                <select asp-for="Perfil" class="form-control"></select>
-                <span asp-validation-for="Perfil" class="text-danger"></span>
-            </div> *@
-            <div class="form-group">
-                <input type="submit" value="Acessar" class="btn btn-success" />
-            </div>
-        </form>
+@* <hr /> *@
+<div class="row align-items-md-start">
+    <div class="col bg-light">
+
+        <div class="image-sm">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/cineviews-removebg-preview.png" class="nav-logo" /></a>
+        </div>
+
+        <p class="desc fs-5">Com o constante influxo de filmes sendo lançados, a escolha de um filme para assistir pode ser uma tarefa desafiadora.
+            A sobrecarga de opções muitas vezes deixa os usuários indecisos. É nesse cenário que nosso projeto surge para ajudar.
+            Nossa plataforma oferece recomendações de filmes com base em uma lista dos "100 Melhores Filmes de Todos os Tempos",
+            uma seleção consolidada por análises e críticas ao longo dos anos.
+        </p>
+        
+        <div class="col-md-auto align-self-end mt-4">
+            <h4>Acessar Cineviews</h4>
+            <form asp-action="Login">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Id" class="control-label"></label>
+                    <input asp-for="Id" class="form-control" />
+                    <span asp-validation-for="Id" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Senha" class="control-label"></label>
+                    <input asp-for="Senha" class="form-control" />
+                    <span asp-validation-for="Senha" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Acessar" class="btn btn-info mt-2" />
+                </div>
+            </form>
+        </div>
+
         <h3>@ViewBag.Message</h3>
+    </div>
+    <div class="col-md-auto image-container">
+        <img src="https://images.unsplash.com/photo-1616530940355-351fabd9524b?auto=format&fit=crop&q=80&w=1935&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" />
     </div>
 </div>
 
-@* <div>
-    <a asp-action="Index">Back to List</a>
-</div> *@
+<link rel="stylesheet" href="~/css/Login.css"/>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
