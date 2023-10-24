@@ -1,0 +1,25 @@
+﻿body {
+}
+
+.image-container {
+    max-width: 950px;
+    max-height: 698px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+
+h4,
+.desc {
+    color: #888;
+}
+
+.nav-logo {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}
