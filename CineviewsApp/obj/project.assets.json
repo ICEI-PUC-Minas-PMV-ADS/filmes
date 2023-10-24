@@ -11174,19 +11174,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\CineviewsApp.csproj",
       "projectName": "CineviewsApp",
       "projectPath": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\CineviewsApp.csproj",
       "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\src\\Cineviews\\CineviewsApp\\CineviewsApp.csproj",
-      "projectName": "CineviewsApp",
-      "projectPath": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\src\\Cineviews\\CineviewsApp\\CineviewsApp.csproj",
-      "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\src\\Cineviews\\CineviewsApp\\obj\\",
->>>>>>> 3ca130e365afb1de5652bc8f2b1ffdd089700922
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -11272,5 +11264,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
