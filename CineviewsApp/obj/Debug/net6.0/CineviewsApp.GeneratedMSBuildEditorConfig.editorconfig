@@ -12,6 +12,106 @@ build_property.RootNamespace = CineviewsApp
 build_property.ProjectDir = C:\Users\Pichau\Downloads\1 varios\CODING\filmes-main\CineviewsApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\Pichau\Downloads\1 varios\CODING\filmes-main\CineviewsApp
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Filmes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Filmes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Filmes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Filmes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Filmes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Filmes/Relatorio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWVzXFJlbGF0b3Jpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Meusfilmes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV1c2ZpbG1lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Meusfilmes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV1c2ZpbG1lc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Meusfilmes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV1c2ZpbG1lc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Meusfilmes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV1c2ZpbG1lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Meusfilmes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV1c2ZpbG1lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Usuarios/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQWNjZXNzRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Usuarios/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Downloads/1 varios/CODING/filmes-main/CineviewsApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-j4o0nlwv0a
