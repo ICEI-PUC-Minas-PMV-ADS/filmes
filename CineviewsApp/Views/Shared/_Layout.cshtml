@@ -46,20 +46,67 @@
                             </li>
                         }
 
+
                         @if(User.IsInRole("Admin"))
                         {
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
                             </li>
-                        }
 
-                    </ul>
-                    <ul class="navbar-nav">
+                        }
 
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
-                                @User.Identity.Name <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Logout">Sairrrrr</a>
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Buscar Filme" aria-label="Search">
+                                    <button class="btn btn-outline-success" type="submit">Search</button>
+                                </form>
+                            </li>
+                        }
+
+@*                         @if (User.Identity.IsAuthenticated)
+                        {
+                            <p style="font-size: 22px" class="p-2 align">&#9788</p>
+                            <li class="form-check form-switch pt-3">
+                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                                <label class="form-check-label" for="flexSwitchCheckChecked"></label>
+                            </li>
+                            <p style="font-size: 22px" class="pt-2">&#9790</p>
+                        } *@
+
+
+                    </ul>
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <div class="navbar-nav mt-3">
+                            <div class="row">
+                                <div class="col p-0">
+                                    <p style="font-size: 22px" class="">&#9788</p>
+                                </div>
+                                <div class="col p-0">
+                                    <div class="form-check form-switch m-1">
+                                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                                        <label class="form-check-label" for="flexSwitchCheckChecked"></label>
+                                    </div>
+                                </div>
+                                <div class="col p-0">
+                                    <p style="font-size: 22px" class="">&#9790</p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                    <ul class="navbar-nav m-3">
+
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item p-2 text-success">
+                                @User.Identity.Name 
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-danger" asp-area="" asp-controller="Usuarios" asp-action="Logout">Sair</a>
                             </li>
                         }
                         else
