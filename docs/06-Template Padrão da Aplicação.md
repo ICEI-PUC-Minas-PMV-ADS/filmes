@@ -1,12 +1,24 @@
 # Template Padrão da Aplicação
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
-
-Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
-
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+#### Landing Page
+![0 - Landing Page](https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/blob/felipedearaujo/docs/img/00%20CineviewsLandingPage.png)
+#### Filmes
+![1 - Filmes](https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/blob/felipedearaujo/docs/img/01%20CineviewsFilmesPage.png)
+#### Filmes Relatório
+![2 - Filmes Relatório](https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/blob/felipedearaujo/docs/img/02%20CineviewsFilmesRelatorioPage.png)
+#### Meus Filmes
+![3 - Meus Filmes Page](https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/blob/felipedearaujo/docs/img/03%20CineviewsMeusFilmesPage.png)
+#### Meus Filmes Editar
+![4 - Meus Filmes Editar](https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/blob/felipedearaujo/docs/img/04%20CineviewsMeusFilmesEditarPage.png)
+#### Meus Filmes Detalhes
+![5 - Meus Filmes Detalhes](https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/blob/felipedearaujo/docs/img/05%20CineviewsMeusFilmesDetalhesPage.png)
+#### Meus Filmes Deletar
+![6 - Meus Filmes Deletar](https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/blob/felipedearaujo/docs/img/06%20CineviewsMeusFilmesDeletarPage.png)
+#### Usuários
+![7 - Usuários Page](https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/blob/felipedearaujo/docs/img/07%20CineviewsUsuariosPage.png)
+#### Usuários Editar
+![8 - Usuários Editar](https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/blob/felipedearaujo/docs/img/07%20CineviewsUsuariosEditarPage.png)
+#### Usuários Detalhes
+![9 - Usuários Detalhes](https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/blob/felipedearaujo/docs/img/08%20CineviewsUsuariosDetalhesPage.png)
+#### Usuários Deletar
+![10 - Usuários Deletar](https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/blob/felipedearaujo/docs/img/09%20CineviewsUsuariosDeletarPage.png)
