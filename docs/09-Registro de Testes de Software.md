@@ -8,6 +8,8 @@
 |:---:	|:---:	|
 |	Verificar se um usuário pode dar uma nota de 0 a 100 para um filme.|  ok |
 
+https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/assets/129342613/bf2ae46b-cae0-40eb-8cc6-dca10151556d
+
 | **Caso de Teste** 	| **CT-03 – Escrever um review de um filme** 	|
 |:---:	|:---:	|
 |	Verificar se um usuário pode escrever um review de um filme.|  Ainda nao foi realizado. |
