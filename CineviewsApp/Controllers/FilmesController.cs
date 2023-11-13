@@ -15,13 +15,29 @@ namespace CineviewsApp.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        //public async Task<IActionResult> Index()
+        //{
+
+        //    var dados = await _context.Filmes.ToListAsync();
+
+        //    return View(dados);
+        //}
+
+        public async Task<IActionResult> Index(string searchString)
         {
+            if (string.IsNullOrEmpty(searchString))
+            {
+                var dados = await _context.Filmes.ToListAsync();
+                return View(dados);
+            }
 
-            var dados = await _context.Filmes.ToListAsync();
+            var filmes = await _context.Filmes
+                .Where(f => EF.Functions.Like(f.Nome, $"%{searchString}%") || EF.Functions.Like(f.Diretor, $"%{searchString}%"))
+                .ToListAsync();
 
-            return View(dados);
+            return View(filmes);
         }
+
 
         public IActionResult Create()
         {
@@ -149,6 +165,16 @@ namespace CineviewsApp.Controllers
             await _context.SaveChangesAsync();
 
             return Json(new { success = true });
+        }
+
+        public IActionResult Search(string searchString)
+        {
+            // Retrieve your list of filmes from the database
+            var filmes = _context.Filmes
+                .Where(f => EF.Functions.Like(f.Nome, $"%{searchString}%") || EF.Functions.Like(f.Diretor, $"%{searchString}%"))
+                .ToList();
+
+            return View("Index", filmes);
         }
 
     }
