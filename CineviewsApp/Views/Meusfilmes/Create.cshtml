@@ -11,10 +11,18 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-            <div class="form-group mb-2">
-                <label asp-for="FilmeId" class="control-label"></label>
-                <select asp-for="FilmeId" class="form-control" asp-items="ViewBag.FilmeId"></select>
-            </div>
+            @if (ViewBag.CheckedFilmes != null)
+            {
+                <div class="form-group mb-2">
+                    <label asp-for="FilmeId" class="control-label"></label>
+                    <select asp-for="FilmeId" class="form-control" asp-items="ViewBag.FilmeId">
+@*                         @foreach (var filme in ViewBag.CheckedFilmes)
+                        {
+                            <option value="@filme.Id">@filme.Nome</option>
+                        } *@
+                    </select>
+                </div>
+            }
 
             <div class="form-group mb-4">
                 <label asp-for="MeuScore" class="control-label"></label>
@@ -31,5 +39,7 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

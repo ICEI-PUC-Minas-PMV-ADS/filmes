@@ -134,5 +134,22 @@ namespace CineviewsApp.Controllers
 
             return View(meusfilmes);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateAssistidoStatus(int id, bool isChecked)
+        {
+            var filme = await _context.Filmes.FindAsync(id);
+
+            if (filme == null)
+            {
+                return NotFound();
+            }
+
+            filme.IsAssistido = isChecked;
+            await _context.SaveChangesAsync();
+
+            return Json(new { success = true });
+        }
+
     }
 }

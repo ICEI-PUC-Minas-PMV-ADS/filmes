@@ -46,16 +46,20 @@ namespace CineviewsApp.Controllers
             return View(meufilme);
         }
 
-        // GET: Meusfilmes/Create
         public IActionResult Create()
         {
-            ViewData["FilmeId"] = new SelectList(_context.Filmes, "Id", "Nome");
+            // Get only the checked movies
+            var checkedFilmes = _context.Filmes.Where(f => f.IsAssistido).ToList();
+
+            // Clear ViewBag to avoid duplication
+            ViewBag.CheckedFilmes = null;
+
+            ViewBag.CheckedFilmes = checkedFilmes;
+            ViewData["FilmeId"] = new SelectList(checkedFilmes, "Id", "Nome");
+
             return View();
         }
 
-        // POST: Meusfilmes/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,MeuScore,FilmeId")] Meufilme meufilme)
