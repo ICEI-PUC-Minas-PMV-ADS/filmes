@@ -17,6 +17,9 @@ namespace CineviewsApp.Models
         [Required(ErrorMessage = "informar o filme")]
         public int FilmeId { get; set; }
 
+        [Display(Name = "Review")]
+        public string Review { get; set; }
+
         [ForeignKey("FilmeId")]
         public Filme Filme { get; set; }
     }

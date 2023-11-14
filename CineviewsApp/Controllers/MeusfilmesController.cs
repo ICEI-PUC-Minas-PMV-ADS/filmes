@@ -62,7 +62,7 @@ namespace CineviewsApp.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,MeuScore,FilmeId")] Meufilme meufilme)
+        public async Task<IActionResult> Create([Bind("Id,MeuScore,FilmeId,Review")] Meufilme meufilme)
         {
             if (ModelState.IsValid)
             {
@@ -96,7 +96,7 @@ namespace CineviewsApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,MeuScore,FilmeId")] Meufilme meufilme)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,MeuScore,FilmeId,Review")] Meufilme meufilme)
         {
             if (id != meufilme.Id)
             {
