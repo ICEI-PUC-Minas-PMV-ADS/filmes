@@ -15,27 +15,45 @@ namespace CineviewsApp.Controllers
             _context = context;
         }
 
-        //public async Task<IActionResult> Index()
-        //{
-
-        //    var dados = await _context.Filmes.ToListAsync();
-
-        //    return View(dados);
-        //}
-
-        public async Task<IActionResult> Index(string searchString)
+        public async Task<IActionResult> Index(string sortOrder, string searchString)
         {
-            if (string.IsNullOrEmpty(searchString))
+            ViewData["NameSortParm"] = string.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+            ViewData["DirectorSortParm"] = sortOrder == "Director" ? "director_desc" : "Director";
+            ViewData["DateSortParm"] = sortOrder == "Date" ? "date_desc" : "Date";
+            ViewData["ScoreSortParm"] = sortOrder == "Score" ? "score_desc" : "Score";
+
+            var filmes = _context.Filmes.Where(f =>
+                EF.Functions.Like(f.Nome, $"%{searchString}%") || EF.Functions.Like(f.Diretor, $"%{searchString}%"));
+
+            switch (sortOrder)
             {
-                var dados = await _context.Filmes.ToListAsync();
-                return View(dados);
+                case "name_desc":
+                    filmes = filmes.OrderByDescending(f => f.Nome);
+                    break;
+                case "Director":
+                    filmes = filmes.OrderBy(f => f.Diretor);
+                    break;
+                case "director_desc":
+                    filmes = filmes.OrderByDescending(f => f.Diretor);
+                    break;
+                case "Date":
+                    filmes = filmes.OrderBy(f => f.DataLancamento);
+                    break;
+                case "date_desc":
+                    filmes = filmes.OrderByDescending(f => f.DataLancamento);
+                    break;
+                case "Score":
+                    filmes = filmes.OrderBy(f => f.Score);
+                    break;
+                case "score_desc":
+                    filmes = filmes.OrderByDescending(f => f.Score);
+                    break;
+                default:
+                    filmes = filmes.OrderBy(f => f.Nome);
+                    break;
             }
 
-            var filmes = await _context.Filmes
-                .Where(f => EF.Functions.Like(f.Nome, $"%{searchString}%") || EF.Functions.Like(f.Diretor, $"%{searchString}%"))
-                .ToListAsync();
-
-            return View(filmes);
+            return View(await filmes.ToListAsync());
         }
 
 

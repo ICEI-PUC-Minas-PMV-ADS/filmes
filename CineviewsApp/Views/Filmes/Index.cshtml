@@ -2,25 +2,58 @@
 
 @{
     ViewData["Title"] = "Index";
+    var searchString = ViewData["CurrentFilter"] as string ?? "";
 }
 
-<h1>Top 100 Filmes</h1>
+<h1>Top Filmes</h1>
 
 
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Nome)
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]" asp-route-searchString="@searchString" class="text-decoration-none">
+                    <span class="text-dark">
+                        @Html.DisplayNameFor(model => model.Nome)
+                    </span>
+                    @if (ViewData["NameSortParm"] != null)
+                    {
+                        <span class="@(ViewData["NameSortParm"].ToString().ToLower() == "name_desc" ? "fa fa-arrow-down" : "fa fa-arrow-up") bg-dark text-white"></span>
+                    }
+                </a>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Diretor)
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["DirectorSortParm"]" asp-route-searchString="@searchString" class="text-decoration-none">
+                    <span class="text-dark">
+                    @Html.DisplayNameFor(model => model.Diretor)
+                    </span>
+                    @if (ViewData["DirectorSortParm"] != null)
+                    {
+                        <span class="@(ViewData["DirectorSortParm"].ToString().ToLower() == "director_desc" ? "fa fa-arrow-down" : "fa fa-arrow-up") bg-dark text-white"></span>
+                    }
+                </a>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DataLancamento)
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["DateSortParm"]" asp-route-searchString="@searchString" class="text-decoration-none">
+                    <span class="text-dark">
+                    @Html.DisplayNameFor(model => model.DataLancamento)
+                    </span>
+                    @if (ViewData["DateSortParm"] != null)
+                    {
+                        <span class="@(ViewData["DateSortParm"].ToString().ToLower() == "date_desc" ? "fa fa-arrow-down" : "fa fa-arrow-up") bg-dark text-white"></span>
+                    }
+                </a>
             </th>
             <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["ScoreSortParm"]" asp-route-searchString="@searchString" class="text-decoration-none">
+                <span class="text-dark">
                 @Html.DisplayNameFor(model => model.Score)
+                </span>    
+                    @if (ViewData["ScoreSortParm"] != null)
+                    {
+                        <span class="@(ViewData["ScoreSortParm"].ToString().ToLower() == "score_desc" ? "fa fa-arrow-down" : "fa fa-arrow-up") bg-dark text-white"></span>
+                    }
+                </a>
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.IsAssistido)
@@ -28,6 +61,8 @@
             <th></th>
         </tr>
     </thead>
+
+
     <tbody>
 @foreach (var item in Model) {
         <tr>
@@ -63,4 +98,5 @@
 
 @section scripts {
     <script src="/js/site.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 }
