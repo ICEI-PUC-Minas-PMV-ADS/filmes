@@ -17,3 +17,42 @@ function updateAssistidoStatus(id, isChecked) {
         }
     })
 }
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const darkModeToggle = document.getElementById('flexSwitchCheckChecked');
+    const body = document.body;
+
+
+    const isDarkModeEnabled = localStorage.getItem('darkMode') === 'enabled';
+
+
+    if (isDarkModeEnabled) {
+        enableDarkMode();
+    }
+
+
+    darkModeToggle.addEventListener('click', function () {
+        if (body.classList.contains('dark-mode')) {
+            disableDarkMode();
+        } else {
+            enableDarkMode();
+        }
+    });
+
+
+    function enableDarkMode() {
+        body.classList.add('dark-mode');
+
+        localStorage.setItem('darkMode', 'enabled');
+    }
+
+
+    function disableDarkMode() {
+        body.classList.remove('dark-mode');
+
+        localStorage.removeItem('darkMode');
+    }
+});
+

@@ -15,4 +15,9 @@ html {
 
 body {
   margin-bottom: 60px;
+  }
+
+.dark-mode {
+    background-color: #121212; 
+    color: #ffffff; 
 }

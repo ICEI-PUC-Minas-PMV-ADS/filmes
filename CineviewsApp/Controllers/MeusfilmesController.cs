@@ -169,5 +169,29 @@ namespace CineviewsApp.Controllers
         {
           return _context.Meufilmes.Any(e => e.Id == id);
         }
+
+        public async Task<IActionResult> LikeReview(int id, bool likeType)
+        {
+            var meufilme = await _context.Meufilmes.FindAsync(id);
+
+            if (meufilme == null)
+            {
+                return NotFound();
+            }
+
+            if (likeType)
+            {
+                meufilme.ThumbsUp++;
+            }
+            else
+            {
+                meufilme.ThumbsDown++;
+            }
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Details), new { id });
+        }
+
     }
 }

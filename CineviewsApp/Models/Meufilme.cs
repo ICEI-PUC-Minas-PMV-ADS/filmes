@@ -22,5 +22,8 @@ namespace CineviewsApp.Models
 
         [ForeignKey("FilmeId")]
         public Filme Filme { get; set; }
+
+        public int ThumbsUp { get; set; }
+        public int ThumbsDown { get; set; }
     }
 }
