@@ -20,39 +20,61 @@ function updateAssistidoStatus(id, isChecked) {
 
 
 
-document.addEventListener('DOMContentLoaded', function () {
-    const darkModeToggle = document.getElementById('flexSwitchCheckChecked');
-    const body = document.body;
+//document.addEventListener('DOMContentLoaded', function () {
+//    const darkModeToggle = document.getElementById('flexSwitchCheckChecked');
+//    const body = document.body;
 
 
-    const isDarkModeEnabled = localStorage.getItem('darkMode') === 'enabled';
+//    const isDarkModeEnabled = localStorage.getItem('darkMode') === 'enabled';
 
 
-    if (isDarkModeEnabled) {
-        enableDarkMode();
+//    if (isDarkModeEnabled) {
+//        enableDarkMode();
+//    }
+
+
+//    darkModeToggle.addEventListener('click', function () {
+//        if (body.classList.contains('dark-mode')) {
+//            disableDarkMode();
+//        } else {
+//            enableDarkMode();
+//        }
+//    });
+
+
+//    function enableDarkMode() {
+//        body.classList.add('dark-mode');
+
+//        localStorage.setItem('darkMode', 'enabled');
+//    }
+
+
+//    function disableDarkMode() {
+//        body.classList.remove('dark-mode');
+
+//        localStorage.removeItem('darkMode');
+//    }
+//});
+
+// Dark Mode Functionality
+document.addEventListener("DOMContentLoaded", function () {
+    const checkbox = document.querySelector("#flexSwitchCheckChecked");
+    const body = document.querySelector("body");
+    const nav = document.querySelector("nav");
+
+    const darkMode = localStorage.getItem("darkMode");
+    if (darkMode) {
+        body.classList.toggle("dark");
+        checkbox.checked = false;
     }
 
+    checkbox.addEventListener("change", function () {
+        body.classList.toggle("dark");
 
-    darkModeToggle.addEventListener('click', function () {
-        if (body.classList.contains('dark-mode')) {
-            disableDarkMode();
+        if (body.classList.contains("dark")) {
+            localStorage.setItem("darkMode", "enabled");
         } else {
-            enableDarkMode();
+            localStorage.removeItem("darkMode");
         }
     });
-
-
-    function enableDarkMode() {
-        body.classList.add('dark-mode');
-
-        localStorage.setItem('darkMode', 'enabled');
-    }
-
-
-    function disableDarkMode() {
-        body.classList.remove('dark-mode');
-
-        localStorage.removeItem('darkMode');
-    }
 });
-

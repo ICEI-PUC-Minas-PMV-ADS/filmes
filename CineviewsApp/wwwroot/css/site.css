@@ -14,10 +14,23 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
-  }
-
-.dark-mode {
-    background-color: #121212; 
-    color: #ffffff; 
+    margin-bottom: 60px;
+    /*background-color: #fff;*/
+    background-color: #5b8dde;
 }
+
+body.dark {
+        background-color: #1e1e1e;
+        color: #ffffff;
+}
+
+.navbar {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/*.navmenu {
+    background-color: #5b8dde;
+}*/

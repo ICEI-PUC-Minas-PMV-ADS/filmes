@@ -7,11 +7,11 @@
 
 <h1>Top Filmes</h1>
 
-<div class="row">
+@*<div class="row">
     <div class="col-md-12">
         <a asp-action="Create" class="btn btn-primary">Adicionar Filme</a>
     </div>
-</div>
+</div>*@
 
 
 <table class="table">
@@ -19,50 +19,52 @@
         <tr>
             <th>
                 <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]" asp-route-searchString="@searchString" class="text-decoration-none">
-                    <span class="text-dark">
+                    <span class="text-light">
                         @Html.DisplayNameFor(model => model.Nome)
                     </span>
                     @if (ViewData["NameSortParm"] != null)
                     {
-                        <span class="@(ViewData["NameSortParm"].ToString().ToLower() == "name_desc" ? "fa fa-arrow-down" : "fa fa-arrow-up") bg-dark text-white"></span>
+                        <span class="@(ViewData["NameSortParm"].ToString().ToLower() == "name_desc" ? "fa fa-arrow-down" : "fa fa-arrow-up") text-light"></span>
                     }
                 </a>
             </th>
             <th>
                 <a asp-action="Index" asp-route-sortOrder="@ViewData["DirectorSortParm"]" asp-route-searchString="@searchString" class="text-decoration-none">
-                    <span class="text-dark">
+                    <span class="text-light">
                     @Html.DisplayNameFor(model => model.Diretor)
                     </span>
                     @if (ViewData["DirectorSortParm"] != null)
                     {
-                        <span class="@(ViewData["DirectorSortParm"].ToString().ToLower() == "director_desc" ? "fa fa-arrow-down" : "fa fa-arrow-up") bg-dark text-white"></span>
+                        <span class="@(ViewData["DirectorSortParm"].ToString().ToLower() == "director_desc" ? "fa fa-arrow-down" : "fa fa-arrow-up") text-light"></span>
                     }
                 </a>
             </th>
             <th>
                 <a asp-action="Index" asp-route-sortOrder="@ViewData["DateSortParm"]" asp-route-searchString="@searchString" class="text-decoration-none">
-                    <span class="text-dark">
+                    <span class="text-light">
                     @Html.DisplayNameFor(model => model.DataLancamento)
                     </span>
                     @if (ViewData["DateSortParm"] != null)
                     {
-                        <span class="@(ViewData["DateSortParm"].ToString().ToLower() == "date_desc" ? "fa fa-arrow-down" : "fa fa-arrow-up") bg-dark text-white"></span>
+                        <span class="@(ViewData["DateSortParm"].ToString().ToLower() == "date_desc" ? "fa fa-arrow-down" : "fa fa-arrow-up") text-light"></span>
                     }
                 </a>
             </th>
             <th>
                 <a asp-action="Index" asp-route-sortOrder="@ViewData["ScoreSortParm"]" asp-route-searchString="@searchString" class="text-decoration-none">
-                <span class="text-dark">
+                    <span class="text-light">
                 @Html.DisplayNameFor(model => model.Score)
                 </span>    
                     @if (ViewData["ScoreSortParm"] != null)
                     {
-                        <span class="@(ViewData["ScoreSortParm"].ToString().ToLower() == "score_desc" ? "fa fa-arrow-down" : "fa fa-arrow-up") bg-dark text-white"></span>
+                        <span class="@(ViewData["ScoreSortParm"].ToString().ToLower() == "score_desc" ? "fa fa-arrow-down" : "fa fa-arrow-up") text-light"></span>
                     }
                 </a>
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IsAssistido)
+            <th>        
+                <span class="text-light">
+                    @Html.DisplayNameFor(model => model.IsAssistido)
+                </span>
             </th>
             <th></th>
         </tr>
@@ -72,27 +74,26 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <td>
-                    <a asp-action="Relatorio" asp-route-id="@item.Id">@item.Nome</a>
- @*                @Html.DisplayFor(modelItem => item.Nome) *@
+            <td class="bg-dark">
+               <a asp-action="Relatorio" asp-route-id="@item.Id" class="text-decoration-none text-light">@item.Nome</a>
             </td>
-            <td>
+                <td class="text-light bg-secondary">
                 @Html.DisplayFor(modelItem => item.Diretor)
             </td>
-            <td>
+                <td class="text-light bg-dark">
                 @Html.DisplayFor(modelItem => item.DataLancamento)
             </td>
-            <td>
+                <td class="text-light bg-secondary">
                 @Html.DisplayFor(modelItem => item.Score)
             </td>
-            <td>
+                <td class="text-light bg-dark">
                  <div class="form-check">
                      <input class="form-check-input" type="checkbox" id="assistidoCheckbox_@item.Id" @(item.IsAssistido ? "checked" : "") onchange="updateAssistidoStatus('@item.Id', this.checked)">
                      <label class="form-check-label" for="assistidoCheckbox_@item.Id"></label>
                  </div>
              </td>
 
-            <td>
+                <td class="text-light bg-dark">
 @*                 <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> 
                 <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Visualizar</a> 
                 <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Apagar</a> *@
