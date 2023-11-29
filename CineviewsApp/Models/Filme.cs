@@ -25,6 +25,9 @@ namespace CineviewsApp.Models
         [Display(Name ="Assistido")]
         public bool IsAssistido { get; set; }
 
+        [Required(ErrorMessage = "Informar a sinopse")]
+        public string Sinopse { get; set; }
+
         public ICollection<Meufilme> Meusfilmes { get; set; }
     }
 }
