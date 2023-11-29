@@ -40,13 +40,19 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/assets/129342613/e1b46e3c-a100-
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/assets/129342613/d5fa7740-683b-47b2-ac42-a70414dd4fc3
 
-| **Caso de Teste** 	| **CT-08 – Curtir os comentários de outros usuários** 	|
+| **Caso de Teste** 	| **CT-09 – Ler a sinopse de um filme** 	|
+|:---:	|:---:	|
+|	Verificar se a sinopse do filme é exibida nos detalhes.| ok |
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/assets/129342613/a5a6c4f7-38ef-4ef5-aa27-1349adc02f13
+
+| **Caso de Teste** 	| **CT-09 – Curtir os comentários de outros usuários** 	|
 |:---:	|:---:	|
 |	Verificar se um usuário pode curtir os comentários de outros usuários.| ok |
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/assets/129342613/c22528b0-5aca-4760-bd05-708d8f69f5fe
 
-| **Caso de Teste** 	| **CT-09 – Descurtir os comentários de outros usuários** 	|
+| **Caso de Teste** 	| **CT-10 – Descurtir os comentários de outros usuários** 	|
 |:---:	|:---:	|
 |	Verificar se um usuário pode descurtir os comentários de outros usuários.| ok |
 
