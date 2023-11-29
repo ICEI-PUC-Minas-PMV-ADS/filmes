@@ -52,14 +52,21 @@
 | **Passos**              | 1. Acessar as configurações da conta. 2. Selecionar a opção de modo Dark. |
 | **Critério de Êxito**   | O modo de exibição da aplicação muda com sucesso para o modo Dark.        |
 
-| **Caso de Teste**       | CT-08 – Curtir os comentários de outros usuários                                                                    |
+| **Caso de Teste**       | CT-08 – Ler a sinopse de um filme                                |
+| :---------------------- | :------------------------------------------------------------------------ |
+| **Requisito Associado** | RF-008                                                                    |
+| **Objetivo do Teste**   | Verificar se um usuário pode ler a sinopse de um filme.                   |
+| **Passos**              | 1. Fazer login na conta de usuário. 2. Acessar uma lista de meus filmes. 3. Selecionar Detalhes. 4. Ler sinopse. |
+| **Critério de Êxito**   | A sinopse correspondente ao filme é exibida com succeso .        |
+
+| **Caso de Teste**       | CT-09 – Curtir os comentários de outros usuários                                                                    |
 | :---------------------- | :------------------------------------------------------------------------------------------------------------------ |
 | **Requisito Associado** | RF-009                                                                                                              |
 | **Objetivo do Teste**   | Verificar se um usuário pode curtir os comentários de outros usuários.                                              |
 | **Passos**              | 1. Fazer login na conta de usuário. 2. Visualizar um comentário. 3. Clicar no botão "Curtir" ao lado do comentário. |
 | **Critério de Êxito**   | O comentário é curtido com sucesso pelo usuário.                                                                    |
 
-| **Caso de Teste**       | CT-09 – Descurtir os comentários de outros usuários                                                                                        |
+| **Caso de Teste**       | CT-10 – Descurtir os comentários de outros usuários                                                                                        |
 | :---------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
 | **Requisito Associado** | RF-010                                                                                                                                     |
 | **Objetivo do Teste**   | Verificar se um usuário pode descurtir os comentários de outros usuários.                                                                  |
