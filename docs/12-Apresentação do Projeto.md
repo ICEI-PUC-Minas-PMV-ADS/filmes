@@ -1,27 +1,13 @@
 # Apresentação
 
-<span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
+[CineViews Slides Apresentação](https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/files/13550350/Presentation11111.pdf)
 
-Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
+![pp1](https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/assets/129342613/c4d1019c-5147-460a-9849-a11180f9125f)
 
-## Título do Projeto
+![pp2](https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/assets/129342613/5196c7d8-10da-4339-8163-487064a5daac)
 
-Nome e marca do projeto
+![pp3](https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/assets/129342613/00edad61-8411-450d-a299-ece4703a7450)
 
-## Identidade Visual (Marca, Design)
+![pp4](https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/assets/129342613/b5159130-399d-4538-839d-30c779415c2c)
 
-O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
-
-> **Links Úteis**:
-> - [10 dicas de design para slides](https://rockcontent.com/blog/design-para-slides/)
-> - [7 dicas de design para criar apresentações de PowerPoint incríveis e eficientes](https://www.shutterstock.com/pt/blog/7-dicas-de-design-para-criar-apresentacoes-de-powerpoint-incriveis-e-eficientes)
-> - [Especialista do TED dá 10 dicas para criar slides eficazes e bonitos](https://soap.com.br/blog/especialista-do-ted-da-10-dicas-para-criar-slides-eficazes-e-bonitos)
-
-## Conjunto de Slides (Estrutura)
-
-O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos.
- 
-> **Links Úteis**:
-> - [A regra 10-20-30 para apresentações de sucesso](https://revistapegn.globo.com/Noticias/noticia/2014/07/regra-10-20-30-para-apresentacoes-de-sucesso.html)
-> - [Top Tips for Effective Presentations](https://www.skillsyouneed.com/present/presentation-tips.html)
-> - [How to make a great presentation](https://www.ted.com/playlists/574/how_to_make_a_great_presentation)
+![pp5](https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/assets/129342613/d2c86783-0222-41b3-b952-680dfe6ec407)
