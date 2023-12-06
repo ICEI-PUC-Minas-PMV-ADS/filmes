@@ -56,3 +56,4 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 # Apresentação
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
+<li> <a href="src/cineview-apresentacao-final.mp4"> Vídeo contendo a apresentação final</a></li>
