@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "TGZI+jyJiG2VxUSnykNy4KqvuLTmEzm1NPN70g2OOl0=",
+=======
+  "Hash": "N4OetefCejE2hISr/Utp3IF1ypktO9tR2jNYtC0I/00=",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
   "Source": "CineviewsApp",
   "BasePath": "_content/CineviewsApp",
   "Mode": "Default",
@@ -10,27 +14,41 @@
     {
       "Name": "CineviewsApp\\wwwroot",
       "Source": "CineviewsApp",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CineviewsApp.styles.css",
       "SourceId": "CineviewsApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CineviewsApp.styles.css",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "CineviewsApp.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CineviewsApp.styles.css"
     },
     {
@@ -38,16 +56,28 @@
       "SourceId": "CineviewsApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CineviewsApp.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CineviewsApp.bundle.scp.css",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "CineviewsApp.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CineviewsApp.bundle.scp.css"
     },
     {
@@ -55,11 +85,22 @@
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CineviewsApp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\cineviews-removebg-preview.png",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "cineviews-removebg-preview.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -68,15 +109,24 @@
       "OriginalItemSpec": "wwwroot\\cineviews-removebg-preview.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\css\\Login.css",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\css\\Login.css",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "css/Login.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -85,15 +135,24 @@
       "OriginalItemSpec": "wwwroot\\css\\Login.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\css\\site.css",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\css\\site.css",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -102,15 +161,24 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\favicon.ico",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\favicon.ico",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -119,15 +187,24 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\js\\site.js",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\js\\site.js",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -136,15 +213,24 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -153,15 +239,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -170,15 +265,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -187,15 +291,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -204,15 +317,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -221,15 +343,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -238,15 +369,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -255,15 +395,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -272,15 +421,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -289,15 +447,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -306,15 +473,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -323,15 +499,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -340,15 +525,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -357,15 +551,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -374,15 +577,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -391,15 +603,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -408,15 +629,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -425,15 +655,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -442,15 +681,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -459,15 +707,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -476,15 +733,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -493,15 +759,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -510,15 +785,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -527,15 +811,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -544,15 +837,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -561,15 +863,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -578,15 +889,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -595,15 +915,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -612,15 +941,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -629,15 +967,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -646,15 +993,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -663,15 +1019,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -680,15 +1045,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -697,15 +1071,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -714,15 +1097,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -731,15 +1123,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -748,15 +1149,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -765,15 +1175,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -782,15 +1201,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -799,15 +1227,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -816,15 +1253,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -833,15 +1279,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -850,15 +1305,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -867,15 +1331,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -884,15 +1357,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -901,15 +1383,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -918,15 +1409,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -935,15 +1435,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -952,15 +1461,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -969,15 +1487,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -986,15 +1513,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1003,15 +1539,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1020,15 +1565,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1037,15 +1591,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1054,15 +1617,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1071,15 +1643,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1088,15 +1669,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "CineviewsApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "CineviewsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Downloads\\1 varios\\CODING\\filmes-main\\CineviewsApp\\wwwroot\\",
+>>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
       "BasePath": "_content/CineviewsApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
