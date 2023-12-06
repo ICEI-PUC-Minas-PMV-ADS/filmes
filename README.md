@@ -56,3 +56,5 @@ Acesse o [Código Fonte](src/README.md) do projeto.
 📍 [Apresentação Final da Solução](https://www.loom.com/share/825884c26c0544c1aa6662d63de72697?sid=c15fe8ba-3a4f-41cd-80d8-1fcf013a8e38)
 
  [![Apresentação Final da Solução](src/print-versao-final.png)](src/cineview-apresentacao-final.mp4)
+
+ https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/assets/129342613/9a71bd30-9fe5-4827-904f-15285584d413
