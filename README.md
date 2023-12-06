@@ -52,5 +52,7 @@ Acesse o [Código Fonte](src/README.md) do projeto.
 ### 🎥 Apresentação da Solução
  ➡️ [Apresentação Inicial da Solução](presentation/README.md) 
  
+
 📍 [Apresentação Final da Solução](src/cineview-apresentacao-final.mp4)
 
+ [![Apresentação Final da Solução](src/print-versao-final.png)](src/cineview-apresentacao-final.mp4)
