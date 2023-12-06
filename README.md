@@ -50,5 +50,7 @@ A documentação completa do projeto está organizada nos seguintes documentos:
 Acesse o [Código Fonte](src/README.md) do projeto.
 
 ### 🎥 Apresentação da Solução
- ➡️ [Apresentação Inicial da Solução](presentation/README.md) do projeto CineWave.
- 📍 [Apresentação Final da Solução](src/cineview-apresentacao-final.mp4)
+ ➡️ [Apresentação Inicial da Solução](presentation/README.md) 
+ 
+📍 [Apresentação Final da Solução](src/cineview-apresentacao-final.mp4)
+
