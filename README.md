@@ -53,6 +53,6 @@ Acesse o [Código Fonte](src/README.md) do projeto.
  ➡️ [Apresentação Inicial da Solução](presentation/README.md) 
  
 
-📍 [Apresentação Final da Solução](src/cineview-apresentacao-final.mp4)
+📍 [Apresentação Final da Solução](https://www.loom.com/share/825884c26c0544c1aa6662d63de72697?sid=c15fe8ba-3a4f-41cd-80d8-1fcf013a8e38)
 
  [![Apresentação Final da Solução](src/print-versao-final.png)](src/cineview-apresentacao-final.mp4)
