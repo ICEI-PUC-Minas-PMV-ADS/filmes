@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "2E+QuliOEuE/gnRUsUS8Gx/7z7et19JuPXGkipJiB7D0neAAZGAmx/6ZI42qOfCNuY/q9/+wEZv0pSI6OFFMEg==",
-=======
-  "dgSpecHash": "EbWyXu9RAwvS4iUNV8XrYcAmPGhqBW879I3s42JuZ1qlBWl+GCBWvrIK13XmxyeUtz56yt61GsBXaiQBwpmVeA==",
->>>>>>> f76ac8967e2000ce37e1cb83ad5bc44a9ca4bbf0
   "success": true,
   "projectFilePath": "C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\CineviewsApp.csproj",
   "expectedPackageFiles": [
@@ -235,5 +231,12 @@
     "C:\\Users\\gildo\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\gildo\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\gildo\\Desktop\\Projeto\\CineviewsApp\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
