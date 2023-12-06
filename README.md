@@ -1,15 +1,14 @@
-# CineWave
+# 🎬 CineWave: Plataforma de Recomendação de Filmes
 
-`Análise e Desenvolvimento de Sistemas`
+### 🌟 Visão Geral do Projeto
+**Semestre:** 2/2023  
+**Curso:** Análise e Desenvolvimento de Sistemas  
+**Projeto:** Desenvolvimento de uma Aplicação Interativa  
 
-`Projeto: Desenvolvimento de uma Aplicação Interativa`
+**Descrição:** CineWave é uma inovadora plataforma de recomendação de filmes 🎥, desenhada para ajudar amantes do cinema a explorarem a vasta gama de opções disponíveis. Baseando-se em uma curada lista dos "100 Melhores Filmes de Todos os Tempos" 🌟, ela é ideal para acadêmicos, educadores, entusiastas do entretenimento e críticos de cinema. Com CineWave, descobrir obras-primas cinematográficas e fazer escolhas informadas fica muito mais fácil.
 
-`Semestre 2/2023`
-
-O projeto em desenvolvimento é uma plataforma de recomendação de filmes que visa resolver o problema da sobrecarga de opções que os amantes de cinema enfrentam atualmente. A plataforma utiliza uma lista dos "100 Melhores Filmes de Todos os Tempos" como base para suas recomendações, uma seleção consolidada ao longo dos anos por análises e críticas. O público-alvo abrange desde acadêmicos e educadores que veem o cinema como uma ferramenta de ensino até entusiastas que buscam experiências de entretenimento de alta qualidade. Além disso, a plataforma também acolhe avaliadores e críticos que desejam contribuir com suas perspectivas e análises. Essa abordagem oferece aos usuários uma maneira eficaz de descobrir filmes que são considerados verdadeiras referências no mundo do cinema, facilitando a tomada de decisão diante da abundância de opções disponíveis.
-
-## Integrantes
-
+### 👥 Equipe do Projeto
+**Integrantes:**
 - Bianca Pinto Moreira
 - Felipe de Araujo Feliciano
 - Guilherme Germano Marroco
@@ -17,21 +16,19 @@ O projeto em desenvolvimento é uma plataforma de recomendação de filmes que v
 - Marco Antonio Gil do Amaral Oliveira
 - Otávio Cavallieri Silva
 
-## Orientador
+**Orientadora:**
+- Prof.ª Daniela Carvalho Monteiro Ferreira
 
-- Daniela Carvalho Monteiro Ferreira
+### 📖 Como Utilizar a Plataforma
+**Instruções de Acesso:**  
+(As instruções detalhadas serão incluídas assim que a primeira versão do sistema estiver disponível.)
 
-## Instruções de utilização
+- **Instalação e Execução:** Instruções sobre como instalar quaisquer dependências necessárias e como executar a aplicação serão fornecidas aqui.
+- **Acesso à Aplicação:** Acesse a aplicação em [CineViews App](https://cineviewsapp20231205203014.azurewebsites.net/Usuarios/Login).
+- **Login de Teste:** Detalhes para acesso de teste, como usuário e senha, serão incluídos (exemplo: usuário - admin / senha - admin).
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
-
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
-
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
-
-# Documentação
+### 📚 Documentação
+A documentação completa do projeto está organizada nos seguintes documentos:
 
 <ol>
 <li><a href="docs/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
@@ -49,10 +46,8 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 <li><a href="docs/13-Referências.md"> Referências</a></li>
 </ol>
 
-# Código
+### 💻 Código Fonte
+Acesse o [Código Fonte](src/README.md) do projeto.
 
-<li><a href="src/README.md"> Código Fonte</a></li>
-
-# Apresentação
-
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
+### 🎥 Apresentação da Solução
+Veja a [Apresentação da Solução](presentation/README.md) do projeto CineWave.
