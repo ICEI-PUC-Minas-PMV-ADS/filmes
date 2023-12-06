@@ -11,8 +11,8 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light box-shadow mb-3">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light box-shadow mb-3 mt-0">
+            <div class="navmenu container-fluid">
 
                 @if (!User.Identity.IsAuthenticated)
                 {
@@ -40,10 +40,10 @@
                         {
 
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Filmes" asp-action="Index">Filmes</a>
+                                <a class="nav-link text-light" asp-area="" asp-controller="Filmes" asp-action="Index">Filmes</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Meusfilmes" asp-action="Index">Meus Filmes</a>
+                                <a class="nav-link text-light" asp-area="" asp-controller="Meusfilmes" asp-action="Index">Meus Filmes</a>
                             </li>
                         }
 
@@ -51,7 +51,7 @@
                         @if(User.IsInRole("Admin"))
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
+                                <a class="nav-link text-light" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
                             </li>
 
                         }
@@ -61,7 +61,7 @@
                             <li class="nav-item">
                                 <form asp-action="Search" asp-controller="Filmes" method="get" class="d-flex" role="search">
                                     <input class="form-control me-2" type="search" placeholder="Buscar Filme" aria-label="Search" name="searchString">
-                                    <button class="btn btn-outline-success" type="submit">Search</button>
+                                    <button class="btn btn-outline-light" type="submit">Search</button>
                                 </form>
                             </li>
                         }
