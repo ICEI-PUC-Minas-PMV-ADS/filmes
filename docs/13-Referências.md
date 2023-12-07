@@ -1,7 +1,12 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+### Sites de Classificação de filmes
+A idealização do sistema foi baseado em sites interativos entre usuários para classificação e busca de filmes conhecidos. Dentre eles: 
 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+* [Filmow](https://filmow.com/)
+* [Letterboxd](https://letterboxd.com/)
+
+### Notas e Definições
+Para classificação de filme na aplicação, foi utilizado as notas (score) do IMDB:
+
+* [IMDB](https://www.imdb.com/)
