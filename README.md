@@ -21,11 +21,11 @@
 
 ### 📖 Como Utilizar a Plataforma
 **Instruções de Acesso:**  
-(As instruções detalhadas serão incluídas assim que a primeira versão do sistema estiver disponível.)
 
-- **Instalação e Execução:** Instruções sobre como instalar quaisquer dependências necessárias e como executar a aplicação serão fornecidas aqui.
 - **Acesso à Aplicação:** Acesse a aplicação em [CineViews App](https://cineviewsapp20231205203014.azurewebsites.net/Usuarios/Login).
-- **Login de Teste:** Detalhes para acesso de teste, como usuário e senha, serão incluídos (exemplo: usuário - admin / senha - admin).
+- **Login de Teste:**
+   * Id: 3;
+   * Senha: 123.
 
 ### 📚 Documentação
 A documentação completa do projeto está organizada nos seguintes documentos:
@@ -47,7 +47,7 @@ A documentação completa do projeto está organizada nos seguintes documentos:
 </ol>
 
 ### 💻 Código Fonte
-Acesse o [Código Fonte](src/README.md) do projeto.
+Acesse o [Código Fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/filmes/tree/main/src/Cineviews/CineviewsApp) do projeto.
 
 ### 🎥 Apresentação da Solução
  ➡️ [Apresentação Inicial da Solução](presentation/README.md) 
